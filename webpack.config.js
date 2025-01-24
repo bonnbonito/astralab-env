@@ -8,6 +8,8 @@ module.exports = {
 		...getWebpackEntryPoints(),
 		trello: './themes/astralab/scripts/trello/index.tsx',
 		main: './themes/astralab/scripts/main/main.tsx',
+		dashboard: './themes/astralab/scripts/dashboard/index.tsx',
+		'single-card': './themes/astralab/scripts/single-card/index.tsx',
 	},
 	resolve: {
 		...defaultConfig.resolve, // Retain existing resolution options
